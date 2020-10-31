@@ -1,0 +1,20 @@
+print("Press 1- To Check Number is Perfect Number or Not")
+a= int(input("Enter Key to Start")
+if(a==1):
+	i=1
+	sum=0
+	n=int(input("Enter a Number")
+	while(i<n):
+		if(n%i==0):
+	
+			sum=sum+i
+		i+=1
+	if (sum ==n):
+		print(i,"is a Perfect Number ")
+	else:
+		print(i,"is Not a Perfect Number ")
+	break;
+  
+else:
+	print("OPPs Wrong Selection")
+	break;
