@@ -1,5 +1,6 @@
 print("Press 1- To Check Number is Perfect Number or Not")
 print("Press 2- To Check Number is Armstrong Number or Not")
+print("Press 3- To Check Number is Strong Number or Not")
 a= int(input("Enter Key to Start")
 if(a==1):
 	i=1
@@ -28,7 +29,25 @@ elif(a==2):
 		print(i,"is a Armstrong Number ")
 	else:
 		print(i,"is Not an Armstrong Number ")
-	break;  
+	break;
+elif(a==3):
+	num=int(input("Enter a Number")
+	save_num=num
+	sum=0
+	while(num):
+		i=1
+		p=1
+		r=num%10
+		while(i<=r):
+		    p=p*i
+		    i+=1
+		sum=sum+p
+		num=num//10
+	if(sum==save-num):
+		print(i,"is a Strong Number ")
+	else:
+		print(i,"is Not a Strong Number ")
+	break; 
 else:
 	print("OPPs Wrong Selection")
 	break;
